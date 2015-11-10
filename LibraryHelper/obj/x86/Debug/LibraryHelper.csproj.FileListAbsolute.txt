@@ -1,0 +1,13 @@
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\bin\Debug\LibraryHelper.exe
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\bin\Debug\LibraryHelper.pdb
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\Interop.SldWorks.dll
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\Interop.SwCommands.dll
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\Interop.SwConst.dll
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\Interop.SwDocumentMgr.dll
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\Interop.SWPublished.dll
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.csproj.ResolveComReference.cache
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.MainForm.resources
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.Properties.Resources.resources
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.csproj.GenerateResource.Cache
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.exe
+C:\Users\spulnik\JOB\Проекты\Furniture\LibraryHelper\obj\x86\Debug\LibraryHelper.pdb
