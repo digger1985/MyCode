@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C0A01D7-A5E9-4103-BC47-D5A1C6C50D52}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Furniture</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Furniture</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <StartProgram>C:\PROGRA~1\SOLIDW~3\SOLIDW~1\\SldWorks.exe</StartProgram>
+    <StartAction>Program</StartAction>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>C:\Program Files\SolidWorks-Russia\MrDoors\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>default</LangVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>C:\Program Files\SolidWorks-Russia\MrDoors\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SwDocumentMgr">
+      <HintPath>bin\Debug\Interop.SwDocumentMgr.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SolidWorks-Russia\MrDoors\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.sldworks, Version=16.5.0.76, Culture=neutral, PublicKeyToken=7c4797c3e4eeac03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\SolidWorks Corp\SolidWorks\SolidWorks.Interop.sldworks.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swcommands, Version=16.5.0.76, Culture=neutral, PublicKeyToken=0fda92720ba7919f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\SolidWorks Corp\SolidWorks\SolidWorks.Interop.swcommands.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst, Version=16.5.0.76, Culture=neutral, PublicKeyToken=19f43e188e4269d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\SolidWorks Corp\SolidWorks\SolidWorks.Interop.swconst.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swpublished">
+      <HintPath>bin\Debug\SolidWorks.Interop.swpublished.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorksTools, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bd18593873b4686d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SolidWorksTools.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cash.cs" />
+    <Compile Include="Common\Planes.cs" />
+    <Compile Include="Common\SaveLoadSettings.cs" />
+    <Compile Include="Decors.cs" />
+    <Compile Include="DimensionDraft.cs" />
+    <Compile Include="EventHandling.cs" />
+    <Compile Include="Exceptions\Exceptions.cs" />
+    <Compile Include="Faner.cs" />
+    <Compile Include="FileSelector.cs" />
+    <Compile Include="FinalProcessing\DesignProjectCreating.cs" />
+    <Compile Include="FinalProcessing\XmlProgram.cs" />
+    <Compile Include="frmCopyProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyProject.Designer.cs">
+      <DependentUpon>frmCopyProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFullPrice.cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFullPrice.cs.Designer.cs">
+      <DependentUpon>frmFullPrice.cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FtpAccess.cs" />
+    <Compile Include="Common\LocalAccounts.cs" />
+    <Compile Include="Kitchen\CreatingRoom.cs" />
+    <Compile Include="Kitchen\Entities\KitchenComponent.cs" />
+    <Compile Include="Kitchen\Entities\Plinth\Plinth.cs" />
+    <Compile Include="Kitchen\Entities\Stand\BottomStand.cs" />
+    <Compile Include="Kitchen\Entities\Stand\Stand.cs" />
+    <Compile Include="Kitchen\Entities\Tabletop\Tabletop.cs" />
+    <Compile Include="Kitchen\Kitchen.cs" />
+    <Compile Include="Kitchen\KitchenComponentTypes.cs" />
+    <Compile Include="OnLoad\LicenseKey.cs" />
+    <Compile Include="PurchaseExport\frmPurchaseExportErrors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseExport\frmPurchaseExportErrors.Designer.cs">
+      <DependentUpon>frmPurchaseExportErrors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseExport\frmPurchaseExportMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseExport\frmPurchaseExportMessageBox.Designer.cs">
+      <DependentUpon>frmPurchaseExportMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseExport\frmPurchaseExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseExport\frmPurchaseExport.Designer.cs">
+      <DependentUpon>frmPurchaseExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowList.Designer.cs">
+      <DependentUpon>frmShowList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="KitchenModule.cs" />
+    <Compile Include="linksToCash.cs" />
+    <Compile Include="ListSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListSettings.Designer.cs">
+      <DependentUpon>ListSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logging\Log.cs" />
+    <Compile Include="MyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyMessageBox.Designer.cs">
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\WaitTime.cs" />
+    <Compile Include="ref_object.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Common\SolidWorksInterop.cs" />
+    <Compile Include="UpdaterFromFtp.cs" />
+    <Compile Include="UpdatingLib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatingLib.designer.cs">
+      <DependentUpon>UpdatingLib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdge.Designer.cs">
+      <DependentUpon>frmEdge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.cs">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReplaceComponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReplaceComponents.Designer.cs">
+      <DependentUpon>frmReplaceComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetParameters.Designer.cs">
+      <DependentUpon>frmSetParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listHiddenComponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listHiddenComponent.Designer.cs">
+      <DependentUpon>listHiddenComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMPHandler.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SwAddin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserPMPage.cs" />
+    <Compile Include="WindowsHook.cs" />
+    <EmbeddedResource Include="frmCopyProject.resx">
+      <DependentUpon>frmCopyProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFullPrice.cs.resx">
+      <DependentUpon>frmFullPrice.cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseExport\frmPurchaseExport.resx">
+      <DependentUpon>frmPurchaseExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowList.resx">
+      <DependentUpon>frmShowList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSettings.resx">
+      <DependentUpon>ListSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyMessageBox.resx">
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseExport\frmPurchaseExportErrors.resx">
+      <DependentUpon>frmPurchaseExportErrors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseExport\frmPurchaseExportMessageBox.resx">
+      <DependentUpon>frmPurchaseExportMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatingLib.resx">
+      <DependentUpon>UpdatingLib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdge.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEdge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplaceComponents.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReplaceComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetParameters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listHiddenComponent.resx">
+      <DependentUpon>listHiddenComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolbarLarge.bmp" />
+    <EmbeddedResource Include="ToolbarSmall.bmp" />
+    <EmbeddedResource Include="MainIconLarge.bmp" />
+    <EmbeddedResource Include="MainIconSmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PostSharpAttributes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HorizontalFiberDirection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerticalFiberDirection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FinalProcessing\FolderInfo.txt" />
+    <Content Include="Kitchen\FolderInfo.txt" />
+    <Content Include="OnLoad\FolderInfo.txt" />
+    <Content Include="Resources\expand.gif" />
+    <Content Include="Resources\expand.ico" />
+    <Content Include="Resources\expand.png" />
+    <Content Include="Resources\expand_old.png" />
+    <EmbeddedResource Include="Resources\green.bmp" />
+    <EmbeddedResource Include="Resources\red.bmp" />
+    <Content Include="Resources\warning.ico" />
+    <Content Include="Resources\Стрелка.png" />
+    <Content Include="Resources\Стрелка2.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
