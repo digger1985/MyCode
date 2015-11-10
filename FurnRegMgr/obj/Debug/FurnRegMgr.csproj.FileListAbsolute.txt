@@ -1,8 +1,0 @@
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\bin\Debug\FurnRegMgr.exe.config
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\bin\Debug\FurnRegMgr.exe
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\bin\Debug\FurnRegMgr.pdb
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\obj\Debug\FurnRegMgr.FrmGenReg.resources
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\obj\Debug\FurnRegMgr.Properties.Resources.resources
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\obj\Debug\FurnRegMgr.csproj.GenerateResource.Cache
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\obj\Debug\FurnRegMgr.exe
-C:\Users\spulnik\JOB\Проекты\Furniture\FurnRegMgr\obj\Debug\FurnRegMgr.pdb
